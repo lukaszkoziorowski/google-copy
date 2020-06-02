@@ -171,3 +171,46 @@ body {
     }
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+  }
+
+  .logo__content {
+    filter: brightness(0) invert(1);
+  }
+
+  .menu {
+    &__text-element {
+      color: #fff;
+      &:hover {
+        color: #aaa;
+      }
+    }
+    &__apps {
+      filter: brightness(0) invert(1);
+      &:hover {
+        background-color: transparent;
+        filter: brightness(1) invert(0);
+      }
+    }
+  }
+  .search__btn {
+    color: #fff;
+    border: 1px solid black;
+    background-color: transparent;
+    &:hover {
+      color: #aaa;
+    }
+  }
+  .footer {
+    background-color: transparent;
+    &__link {
+      color: white;
+      &:hover {
+        color: #aaa;
+      }
+    }
+  }
+}

@@ -214,4 +214,46 @@ body {
 .footer__link:hover {
   text-decoration: underline;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+  }
+  .logo__content {
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+  }
+  .menu__text-element {
+    color: #fff;
+  }
+  .menu__text-element:hover {
+    color: #aaa;
+  }
+  .menu__apps {
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+  }
+  .menu__apps:hover {
+    background-color: transparent;
+    -webkit-filter: brightness(1) invert(0);
+            filter: brightness(1) invert(0);
+  }
+  .search__btn {
+    color: #fff;
+    border: 1px solid black;
+    background-color: transparent;
+  }
+  .search__btn:hover {
+    color: #aaa;
+  }
+  .footer {
+    background-color: transparent;
+  }
+  .footer__link {
+    color: white;
+  }
+  .footer__link:hover {
+    color: #aaa;
+  }
+}
 /*# sourceMappingURL=main.css.map */
