@@ -1,5 +1,5 @@
 # google-copy
 
-## Copied Google's main page design (desktop version) for training only.
+## Copied Google's main page design (desktop version) for training.
 
-https://lukaszkoziorowski.github.io/google-copy/
+Demo: https://lukaszkoziorowski.github.io/google-copy/
